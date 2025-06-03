@@ -1,5 +1,4 @@
-[
-  {
+{
   "cardapio": {
     "pizzas_classicas": [
       {
@@ -102,5 +101,3 @@
     ]
   }
 }
-
-]

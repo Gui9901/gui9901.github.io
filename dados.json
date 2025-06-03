@@ -1,106 +1,106 @@
 [
   {
-    "categoria": "Pizzas Clássicas",
-    "produtos": [
+  "cardapio": {
+    "pizzas_classicas": [
       {
         "id": 1,
         "nome": "Margherita",
-        "descricao": "Molho de tomate, mussarela, manjericão fresco.",
+        "descricao": "Molho de tomate, mussarela, tomate e manjericão.",
         "preco": "R$ 35,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Margherita"
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 2,
         "nome": "Calabresa",
-        "descricao": "Calabresa fatiada, cebola, mussarela.",
+        "descricao": "Calabresa fatiada, cebola e mussarela.",
         "preco": "R$ 37,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Calabresa"
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 3,
-        "nome": "Quatro Queijos",
-        "descricao": "Mussarela, parmesão, provolone e gorgonzola.",
-        "preco": "R$ 40,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Quatro+Queijos"
+        "nome": "Portuguesa",
+        "descricao": "Presunto, ovo, cebola, azeitona e mussarela.",
+        "preco": "R$ 39,00",
+        "imagem": "https://via.placeholder.com/80"
       }
-    ]
-  },
-  {
-    "categoria": "Especiais da Casa",
-    "produtos": [
+    ],
+    "pizzas_especiais": [
       {
         "id": 4,
-        "nome": "Pepperoni Especial",
-        "descricao": "Molho especial da casa, pepperoni premium, mussarela.",
+        "nome": "Quatro Queijos",
+        "descricao": "Mussarela, gorgonzola, provolone e parmesão.",
         "preco": "R$ 42,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Pepperoni+Especial"
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 5,
         "nome": "Frango com Catupiry",
-        "descricao": "Frango desfiado, Catupiry original, orégano.",
-        "preco": "R$ 39,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Frango+com+Catupiry"
+        "descricao": "Frango desfiado, catupiry e mussarela.",
+        "preco": "R$ 40,00",
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 6,
-        "nome": "Portuguesa",
-        "descricao": "Presunto, ovo, cebola, azeitona e mussarela.",
-        "preco": "R$ 38,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Portuguesa"
+        "nome": "Pepperoni",
+        "descricao": "Molho, pepperoni e queijo mussarela.",
+        "preco": "R$ 41,00",
+        "imagem": "https://via.placeholder.com/80"
       }
-    ]
-  },
-  {
-    "categoria": "Doces",
-    "produtos": [
+    ],
+    "pizzas_doces": [
       {
         "id": 7,
         "nome": "Chocolate com Morango",
-        "descricao": "Chocolate ao leite derretido e morangos frescos.",
-        "preco": "R$ 36,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Chocolate+com+Morango"
+        "descricao": "Chocolate ao leite e morangos frescos.",
+        "preco": "R$ 38,00",
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 8,
-        "nome": "Banana com Canela",
-        "descricao": "Banana fatiada, açúcar e canela.",
-        "preco": "R$ 34,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Banana+com+Canela"
+        "nome": "Romeu e Julieta",
+        "descricao": "Goiabada com queijo cremoso.",
+        "preco": "R$ 36,00",
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 9,
-        "nome": "Romeu e Julieta",
-        "descricao": "Goiabada cremosa e queijo mussarela.",
-        "preco": "R$ 35,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Romeu+e+Julieta"
+        "nome": "Banana com Canela",
+        "descricao": "Banana, canela e leite condensado.",
+        "preco": "R$ 34,00",
+        "imagem": "https://via.placeholder.com/80"
       }
-    ]
-  },
-  {
-    "categoria": "Bebidas",
-    "produtos": [
+    ],
+    "bebidas": [
       {
         "id": 10,
-        "nome": "Refrigerante 2L",
-        "descricao": "Escolha entre Coca-Cola, Guaraná, Pepsi.",
-        "preco": "R$ 10,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Refrigerante+2L"
+        "nome": "Refrigerante Lata",
+        "descricao": "350ml (Coca-Cola, Guaraná, etc.)",
+        "preco": "R$ 6,00",
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 11,
-        "nome": "Suco Natural",
-        "descricao": "Suco feito na hora: laranja, abacaxi, limão.",
-        "preco": "R$ 8,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Suco+Natural"
+        "nome": "Água Mineral",
+        "descricao": "500ml sem gás.",
+        "preco": "R$ 4,00",
+        "imagem": "https://via.placeholder.com/80"
       },
       {
         "id": 12,
-        "nome": "Água com Gás",
-        "descricao": "Água mineral com gás.",
-        "preco": "R$ 5,00",
-        "imagem": "https://via.placeholder.com/400x180?text=Água+com+Gás"
+        "nome": "Suco Natural",
+        "descricao": "300ml - Sabores variados.",
+        "preco": "R$ 8,00",
+        "imagem": "https://via.placeholder.com/80"
+      },
+      {
+        "id": 13,
+        "nome": "Suco de Maçã",
+        "descricao": "100ml - Sabores variados.",
+        "preco": "R$ 19,00",
+        "imagem": "https://via.placeholder.com/81"
       }
     ]
   }
+}
+
 ]
